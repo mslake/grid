@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include grid *.css
+recursive-include grid *.csv
+recursive-include grid *.html
+recursive-include grid *.ico
+recursive-include grid *.js
+recursive-include grid *.json
+recursive-include grid *.md
+recursive-include grid *.png
+recursive-include grid *.py
+recursive-include grid *.svg
+recursive-include grid *.txt
+recursive-exclude grid *.pyc
